@@ -13,11 +13,12 @@
         <p>
           <a :href="`https://is-project-4th-year.github.io/build-your-portfolio-github-workflow-essentials-Solovea-101/`" target="_blank" style="color: #007bff; text-decoration: none;">Click here to view my portfolio</a>
         </p>
+        </div>
     </div>
   </template>
   
   <script setup>
   const github = 'Solovea'
-  const email = 'your.email@example.com'
+  const email = 'stephen.mutei@strathmore.edu'
   </script>
   
