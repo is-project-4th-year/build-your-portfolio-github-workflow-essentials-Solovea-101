@@ -16,7 +16,7 @@
       </div>
   
       <div style="margin-top: 50px;">
-        <h2 style="border-bottom: 2px solid #007bff; padding-bottom: 5px;">3. Learnings from the Git Crash Program</h2>
+        <h2 style="border-bottom: 2px solid #007bff; padding-top: 5px; padding-bottom: 5px;">3. Learnings from the Git Crash Program</h2>
         <p><strong>What I Thought I'd Learn vs What I Actually Learned</strong></p>
   
        
