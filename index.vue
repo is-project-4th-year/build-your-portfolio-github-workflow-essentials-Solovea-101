@@ -51,11 +51,33 @@
           <p><strong>Impact 💡:</strong> My commit logs for the portfolio now look neat and consistent — making it easier to track what I did and when. It’s a small habit, but it makes a huge difference in keeping the project clean.</p>
         </div>
       </div>
+
+      <!-- Project Screenshots Section -->
+    <div style="margin-top: 50px;">
+      <h2 style="border-bottom: 2px solid #007bff; padding-bottom: 5px;">Project Screenshots</h2>
+      <p>Below are some screenshots of my work with short descriptions.</p>
+
+      <div v-for="(screenshot, index) in screenshots" :key="index" style="margin-top: 30px;">
+        <img :src="screenshot.src" :alt="`Screenshot ${index + 1}`" style="width: 100%; max-height: 400px; object-fit: contain; border-radius: 8px; border: 1px solid #ddd;" />
+        <p style="margin-top: 10px;"><strong>Description:</strong> {{ screenshot.description }}</p>
+      </div>
+    </div>
     </div>
   </template>
   
   <script setup>
   const github = 'Solovea'
   const email = 'stephen.mutei@strathmore.edu'
+
+  const screenshots = [
+  { src: 'images/branching.png', description: 'Branching with meaningful naming' },
+  { src: 'images/conflict.png', description: 'No merge conflict present.' },
+  { src: 'images/merge.png', description: 'A successful merge of branches' },
+  { src: 'images/mergeconflict.png', description: 'Merge conflict arose and was fixed' },
+  { src: 'images/milestone.png', description: 'Milestone with its issues' },
+  { src: 'images/milestone2.png', description: 'A different milestone with its own issues.' },
+  { src: 'images/projectboard.png', description: 'My project board showing various stages of completion of issues' },
+  { src: 'images/pullrequest.png', description: 'Creating of a pull reqquest on GitHub' }
+]
   </script>
   
