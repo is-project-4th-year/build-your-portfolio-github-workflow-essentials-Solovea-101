@@ -52,15 +52,21 @@
         </div>
       </div>
 
-      <!-- Project Screenshots Section -->
-    <div style="margin-top: 50px;">
-      <h2 style="border-bottom: 2px solid #007bff; padding-bottom: 5px;">Project Screenshots</h2>
-      <p>Below are some screenshots of my work with short descriptions.</p>
+     <!-- Project Screenshots Section -->
+<div style="margin-top: 50px;">
+  <h2 style="border-bottom: 2px solid #007bff; padding-bottom: 5px;">Project Screenshots</h2>
+  <p>Below are some screenshots of my work with short descriptions.</p>
 
-      <div v-for="(screenshot, index) in screenshots" :key="index" style="margin-top: 30px;">
-        <img :src="screenshot.src" :alt="`Screenshot ${index + 1}`" style="width: 100%; max-height: 400px; object-fit: contain; border-radius: 8px; border: 1px solid #ddd;" />
-        <p style="margin-top: 10px;"><strong>Description:</strong> {{ screenshot.description }}</p>
-      </div>
+  <div v-for="(screenshot, index) in screenshots" :key="index" style="margin-top: 30px;">
+    <div style="border: 1px solid #ccc; border-radius: 8px; padding: 10px;">
+      <img 
+        :src="screenshot.src" 
+        :alt="`Screenshot ${index + 1}`" 
+        style="width: 100%; max-height: 400px; object-fit: contain; border-radius: 5px;" 
+      />
+      <p style="margin-top: 10px;"><strong>Description:</strong> {{ screenshot.description }}</p>
+    </div>
+    </div>
     </div>
     </div>
   </template>
