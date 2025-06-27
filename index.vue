@@ -19,7 +19,7 @@
         <h2 style="border-bottom: 2px solid #007bff; padding-bottom: 5px;">3. Learnings from the Git Crash Program</h2>
         <p><strong>What I Thought I'd Learn vs What I Actually Learned</strong></p>
   
-        <!-- Concept 1 -->
+       
         <div style="margin-top: 20px;">
           <p><strong>Concept:</strong> Git Branching & Merging</p>
           <p><strong>Expectation 👀:</strong> I thought I’d just review how to create branches and merge them — something I already knew from working on small solo projects.</p>
@@ -27,7 +27,7 @@
           <p><strong>Impact 💡:</strong> This helped me break down my portfolio into manageable features (like a "contact-section" branch), allowing me to work on sections independently and test safely before merging into the main project.</p>
         </div>
   
-        <!-- Concept 2 -->
+        
         <div style="margin-top: 20px;">
           <p><strong>Concept:</strong> Pull Requests & Merge Conflicts</p>
           <p><strong>Expectation 👀:</strong> I expected pull requests to be more of a team thing, not very relevant to solo development.</p>
@@ -35,7 +35,7 @@
           <p><strong>Impact 💡:</strong> This gave me more confidence when syncing changes between feature branches and <code>main</code>, especially after trying experimental changes on my portfolio’s layout.</p>
         </div>
   
-        <!-- Concept 3 -->
+        
         <div style="margin-top: 20px;">
           <p><strong>Concept:</strong> GitHub Project Boards, Issues & Milestones</p>
           <p><strong>Expectation 👀:</strong> I thought project boards were overly complex — meant for large teams managing enterprise projects.</p>
@@ -43,7 +43,7 @@
           <p><strong>Impact 💡:</strong> Helped me manage each stage of the portfolio — from planning my About section to tracking bugs in layout responsiveness.</p>
         </div>
   
-        <!-- Concept 4 -->
+        
         <div style="margin-top: 20px;">
           <p><strong>Concept:</strong> Conventional Commits (fix/docs/style/refactor)</p>
           <p><strong>Expectation 👀:</strong> I didn't think commit messages mattered much — I was used to typing things like “update” or “stuff” 😅.</p>
